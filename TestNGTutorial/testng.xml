@@ -1,0 +1,9 @@
+<suite name="regression">
+	<test name="Application test">
+		<classes>
+			<class name="testClasses.TestNGFirstDemo"></class>
+			<class name="testClasses.TestNGSoftAsserts"></class>
+			<class name="testClasses.TestNGTestAnnotations"></class>
+		</classes>
+	</test>
+</suite>

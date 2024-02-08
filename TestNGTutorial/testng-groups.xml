@@ -1,0 +1,19 @@
+<suite name="regression">
+	<test name="Grouping Tests">
+		<groups>
+			<define name="all">
+				<include name="groupone"></include>				
+				<include name="grouptwo"></include>				
+			</define>
+			<define name="single">
+				<include name="ones"></include>							
+			</define>
+			<run>
+				<include name="single"></include>		
+			</run>
+		</groups>
+		<classes>
+			<class name="testClasses.TestNGGrouping"></class>
+		</classes>
+	</test>
+</suite>

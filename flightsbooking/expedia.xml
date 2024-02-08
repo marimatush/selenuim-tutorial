@@ -1,0 +1,7 @@
+<suite name="Expedia">
+	<test name="Application test">
+		<classes>
+			<class name="com.expedia.flightsbooking.TestNG_Expedia"></class>
+		</classes>
+	</test>
+</suite>

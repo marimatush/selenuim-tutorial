@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Logs Suite">
+	<test name="Run tests and logs">
+		<classes>
+			<class name="testClasses.TestNG_ReportsAndLogs"></class>
+		</classes>
+	</test>
+</suite>

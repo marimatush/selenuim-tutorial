@@ -1,0 +1,15 @@
+<suite name="regression">
+	<test name="Preserve test I" preserve-order="true">
+		<classes>
+			<class name="testClasses.TestNGPreserve2"></class>
+			<class name="testClasses.TestNGPreserve1"></class>
+		</classes>
+	</test>
+	
+	<test name="Preserve test II" enabled="false">
+		<classes>
+			<class name="testClasses.TestNGPreserve2"></class>
+			<class name="testClasses.TestNGPreserve1"></class>
+		</classes>
+	</test>
+</suite>
