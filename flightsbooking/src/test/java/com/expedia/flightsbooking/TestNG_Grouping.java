@@ -1,6 +1,5 @@
 package com.expedia.flightsbooking;
 
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 //import org.testng.Assert;
 import org.testng.annotations.Test;

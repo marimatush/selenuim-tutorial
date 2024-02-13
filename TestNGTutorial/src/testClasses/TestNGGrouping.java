@@ -1,11 +1,7 @@
 package testClasses;
 
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
-//import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import appcode.SomeCLassToTest;
 
 public class TestNGGrouping {
 	

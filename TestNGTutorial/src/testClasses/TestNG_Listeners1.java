@@ -1,13 +1,12 @@
 package testClasses;
 
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.testng.annotations.AfterClass;
 
 //import listeners.CustomListener1;
 
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
-import org.junit.Assert;
-import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
 
 //@Listeners(CustomListener1.class)
 public class TestNG_Listeners1 {

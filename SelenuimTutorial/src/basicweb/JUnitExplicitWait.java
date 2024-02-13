@@ -1,10 +1,6 @@
 package basicweb;
 
-import static org.junit.Assert.*;
-
 import java.time.Duration;
-
-import javax.annotation.concurrent.ThreadSafe;
 
 import org.junit.After;
 import org.junit.Before;

@@ -1,7 +1,5 @@
 package switchto;
 
-import static org.junit.Assert.*;
-
 import java.time.Duration;
 import java.util.Set;
 

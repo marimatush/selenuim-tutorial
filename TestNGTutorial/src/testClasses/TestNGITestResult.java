@@ -1,9 +1,9 @@
 package testClasses;
 
-import org.testng.annotations.Test;
 import org.junit.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
 
 public class TestNGITestResult {
 	@Test

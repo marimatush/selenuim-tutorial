@@ -1,7 +1,5 @@
 package seleniumgrid;
 
-import org.testng.annotations.Test;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
@@ -13,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class TestNG_SeleniumGrid {
 	private WebDriver driver;

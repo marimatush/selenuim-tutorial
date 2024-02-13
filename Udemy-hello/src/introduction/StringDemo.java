@@ -1,5 +1,5 @@
 package introduction;
-import java.util.*;
+import java.util.Arrays;
 
 public class StringDemo {
 

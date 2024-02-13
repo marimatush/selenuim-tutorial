@@ -1,10 +1,5 @@
 package testClasses;
 
-import org.testng.annotations.Test;
-
-import base.Constants;
-import base.ExcelUtility;
-
 import java.time.Duration;
 
 import org.junit.Assert;
@@ -15,6 +10,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import base.Constants;
+import base.ExcelUtility;
 
 public class TestNG_UsingExcel {
 	private WebDriver driver;
