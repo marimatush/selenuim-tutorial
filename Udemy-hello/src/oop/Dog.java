@@ -2,9 +2,25 @@ package oop;
 
 public class Dog {
 	private String breed;
-	private String name;
 	private String color;
-	private String character;
+	private String gender;
+	
+	// accessible within a package
+	String name;
+		
+	// available anywhere with importing package and class
+	public String publicCharactiristic;
+	
+	// anywhere within the same package
+	// available to any sub-class even outside the package
+	protected int age;	
+	
+	public Dog(String breed, String gender, String color, String name) {
+		this.breed = breed;
+		this.color = color;
+		this.gender = gender;
+		this.name = name;
+	}
 	
 	public void bark() {
 		System.out.println("How how!");
@@ -34,11 +50,11 @@ public class Dog {
 		this.color = color;
 	}
 
-	public String getCharacter() {
-		return character;
+	public String getGender() {
+		return gender;
 	}
 
-	public void setCharacter(String character) {
-		this.character = character;
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
 }
